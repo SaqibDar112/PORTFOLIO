@@ -178,7 +178,7 @@ export const portfolio = {
     {
       school: 'Lovely Professional University, Punjab',
       degree: 'B.Tech — Computer Science & Engineering',
-      detail: 'CGPA: 7.21',
+      detail: 'CGPA: 7.33',
       period: 'July 2022 – July 2026',
     },
     {
