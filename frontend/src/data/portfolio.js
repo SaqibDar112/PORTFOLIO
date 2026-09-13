@@ -19,12 +19,12 @@ export const portfolio = {
     { value: '99.9%', label: 'Prod Uptime Maintained' },
   ],
   coreStack: [
-    { name: 'JavaScript (ES6+)', level: 92 },
-    { name: 'React / Redux', level: 88 },
+    { name: 'JavaScript (ES6+)', level: 95 },
+    { name: 'React / Redux', level: 80 },
     { name: 'Python · FastAPI / Django', level: 85 },
     { name: 'Node.js / Express', level: 90 },
     { name: 'MongoDB / PostgreSQL', level: 84 },
-    { name: 'Docker / AWS / CI-CD', level: 80 },
+    { name: 'Docker / AWS / CI-CD', level: 20 },
   ],
   skills: [
     {
