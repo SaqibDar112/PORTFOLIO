@@ -1,1 +1,3 @@
-MADE WITH OPENCODE BHAI GIVE IT A TRY -- IT IS GOOD 🙂 and YES FREE 
+Made with OPENCODE give it a try -- IT IS GOOD 🙂 and YES FREE 
+
+Here you can check it out - https://saqibdar.vercel.app
