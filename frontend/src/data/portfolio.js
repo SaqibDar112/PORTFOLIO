@@ -64,7 +64,7 @@ export const portfolio = {
       current: true,
       tech: ['React', 'Django', 'FastAPI', 'REST APIs', 'Observability', 'CI/CD'],
       points: [
-        'Wearing a full-stack hat — official title is Technical Support Engineer, but day-to-day I ship frontend, backend and infrastructure work end to end.',
+        'Wearing a full-stack hat — official title is Technical Support Engineer, but day-to-day I ship frontend, backend work end to end.',
         'Optimized backend systems for WhatsApp messaging workflows using Django and REST APIs, increasing message delivery success rate by 15%.',
         'Implemented log monitoring to track application behavior, reducing average response time for production incidents by 20%.',
         'Collaborated with engineering teams to maintain 99.9% infrastructure availability and deployed updates via automated CI/CD pipelines.',
@@ -108,7 +108,7 @@ export const portfolio = {
       featured: true,
     },
     {
-      name: 'Developer Portfolio (This Site)',
+      name: 'Portfolio',
       tagline: 'Full-stack portfolio with JWT auth',
       tech: ['React', 'Vite', 'Tailwind CSS', 'FastAPI', 'MongoDB', 'JWT'],
       period: '2026',

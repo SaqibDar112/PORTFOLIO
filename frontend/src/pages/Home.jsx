@@ -23,7 +23,7 @@ const terminalRows = [
   { key: 'location', value: "'Anantnag, India'", color: 'text-indigo-300' },
   { key: 'email', value: "'darsaqib4979@gmail.com'", color: 'text-emerald-300' },
   { key: 'openToWork', value: 'true', color: 'text-amber-300' },
-  { key: 'stack', value: "[React, Node, FastAPI, Mongo]", color: 'text-cyan-300' },
+  { key: 'stack', value: "[React, Node, FastAPI/Django, Mongo]", color: 'text-cyan-300' },
 ]
 
 function Hero() {
