@@ -192,7 +192,7 @@ function About() {
               <p className="font-mono text-sm text-accent">~/what-i-do</p>
               <ul className="mt-6 space-y-6">
                 {[
-                  ['Full-stack apps', 'React + Node/FastAPI + SQL/NoSQL, end to end.'],
+                  ['Full-stack apps', 'React + Node/FastAPI/Django + SQL/NoSQL, end to end.'],
                   ['Backend & APIs', 'REST, authentication (JWT/OAuth), scalable design.'],
                   ['DevOps basics', 'Docker, AWS, CI/CD pipelines and monitoring.'],
                 ].map(([title, text]) => (
