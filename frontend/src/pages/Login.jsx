@@ -26,7 +26,7 @@ export default function Login() {
   return (
     <div className="mx-auto flex max-w-md flex-col justify-center px-4 py-24">
       <h1 className="text-2xl font-bold text-white">Welcome back</h1>
-      <p className="mt-1 text-sm text-slate-400">Log in to your account to continue.</p>
+      <p className="mt-1 text-sm text-slate-400">Log in to your account to continue - can take upto 2 mins as using free cloud service 🙏.</p>
 
       <form onSubmit={submit} className="card mt-8 space-y-4 p-6">
         <div>

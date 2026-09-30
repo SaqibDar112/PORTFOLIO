@@ -26,7 +26,7 @@ export default function Register() {
     <div className="mx-auto flex max-w-md flex-col justify-center px-4 py-24">
       <h1 className="text-2xl font-bold text-white">Create an account</h1>
       <p className="mt-1 text-sm text-slate-400">
-        Sign up to message Saqib directly and manage your profile.
+        Sign up to message Saqib directly and manage your profile - Can Take upto 2mins using free cloud 🙏.
       </p>
 
       <form onSubmit={submit} className="card mt-8 space-y-4 p-6">
