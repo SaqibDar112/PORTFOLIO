@@ -12,5 +12,9 @@ class Settings(BaseSettings):
     refresh_token_expire_days: int = 7
     frontend_origin: str = "http://localhost:5173"
 
+    @property
+    def cors_origins(self) -> list[str]:
+        return [o.strip() for o in self.frontend_origin.split(",") if o.strip()]
+
 
 settings = Settings()
