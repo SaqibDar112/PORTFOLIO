@@ -1,6 +1,9 @@
 import axios from 'axios'
 
-const api = axios.create({ baseURL: '/api' })
+const rawBase = import.meta.env.VITE_API_URL || ''
+export const API_BASE = `${rawBase.replace(/\/$/, '')}/api`
+
+const api = axios.create({ baseURL: API_BASE })
 const TOKEN_KEY = 'saqib_tokens'
 
 export function getTokens() {
@@ -44,7 +47,7 @@ api.interceptors.response.use(
       if (tokens?.refresh_token) {
         refreshing =
           refreshing ||
-          axios.post('/api/auth/refresh', { refresh_token: tokens.refresh_token })
+          axios.post(`${API_BASE}/auth/refresh`, { refresh_token: tokens.refresh_token })
         try {
           const { data } = await refreshing
           storeTokens(data)
